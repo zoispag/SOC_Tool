@@ -1,0 +1,77 @@
+* About to connect() to cacti.otenet.gr port 80 (#0)
+*   Trying 79.128.180.46...
+* connected
+* Connected to cacti.otenet.gr (79.128.180.46) port 80 (#0)
+> POST /cacti/graph_view.php HTTP/1.1
+Host: cacti.otenet.gr
+Accept: */*
+Content-Length: 468
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6f04401cdca5
+
+< HTTP/1.1 100 Continue
+< HTTP/1.1 302 Found
+< Date: Tue, 30 Aug 2016 17:41:21 GMT
+< Server: Apache/2.2.3 (CentOS)
+< X-Powered-By: PHP/5.1.6
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Last-Modified: Tue, 30 Aug 2016 17:41:21 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< P3P: CP="CAO PSA OUR"
+* Added cookie Cacti="gnkj87tfb9nun8dr5sn5vhilt5" for domain cacti.otenet.gr, path /, expire 0
+< Set-Cookie: Cacti=gnkj87tfb9nun8dr5sn5vhilt5; path=/
+< Location: graph_view.php
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+* HTTP error before end of send, stop sending
+< 
+* Closing connection #0
+* Issue another request to this URL: 'http://cacti.otenet.gr/cacti/graph_view.php'
+* Violate RFC 2616/10.3.3 and switch from POST to GET
+* About to connect() to cacti.otenet.gr port 80 (#0)
+*   Trying 79.128.180.46...
+* connected
+* Connected to cacti.otenet.gr (79.128.180.46) port 80 (#0)
+> GET /cacti/graph_view.php HTTP/1.1
+Host: cacti.otenet.gr
+Accept: */*
+Cookie: Cacti=gnkj87tfb9nun8dr5sn5vhilt5
+
+< HTTP/1.1 302 Found
+< Date: Tue, 30 Aug 2016 17:41:21 GMT
+< Server: Apache/2.2.3 (CentOS)
+< X-Powered-By: PHP/5.1.6
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Last-Modified: Tue, 30 Aug 2016 17:41:21 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< P3P: CP="CAO PSA OUR"
+< Location: graph_view.php?action=tree&tree_id=34&leaf_id=1329&select_first=true
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< 
+* Connection #0 to host cacti.otenet.gr left intact
+* Issue another request to this URL: 'http://cacti.otenet.gr/cacti/graph_view.php?action=tree&tree_id=34&leaf_id=1329&select_first=true'
+* Re-using existing connection! (#0) with host (nil)
+* Connected to (nil) (79.128.180.46) port 80 (#0)
+> GET /cacti/graph_view.php?action=tree&tree_id=34&leaf_id=1329&select_first=true HTTP/1.1
+Host: cacti.otenet.gr
+Accept: */*
+Cookie: Cacti=gnkj87tfb9nun8dr5sn5vhilt5
+
+< HTTP/1.1 200 OK
+< Date: Tue, 30 Aug 2016 17:41:21 GMT
+< Server: Apache/2.2.3 (CentOS)
+< X-Powered-By: PHP/5.1.6
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Last-Modified: Tue, 30 Aug 2016 17:41:21 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< P3P: CP="CAO PSA OUR"
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=UTF-8
+< 
+* Connection #0 to host (nil) left intact
+* Closing connection #0
+* WARNING: failed to save cookies in 
